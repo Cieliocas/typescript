@@ -8,4 +8,6 @@ let altura: number = 1.75 // number
 
 const nacionalidade: string = 'brasileiro' // string
 
+// Teste de arrays
 
+const colegas: string[] = ['cielio', 'joao', 'maria'] // array de strings
