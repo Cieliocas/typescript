@@ -10,4 +10,4 @@ const nacionalidade: string = 'brasileiro' // string
 
 // Teste de arrays
 
-const colegas: string[] = ['cielio', 'joao', 'maria'] // array de strings
+const colegas: string[] = ['cielio', 'joao', 'maria', 25] // array de strings
