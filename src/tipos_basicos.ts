@@ -18,4 +18,5 @@ const tecnologias: Array<string> = ['javascript', 'typescript', 'nodejs'] // arr
 // Array de apenas leitura com tipo number
 const notas: ReadonlyArray<number> = [10, 9, 8, 7, 6] // array de números
 
-
+tecnologias.push('react') // erro de compilação, pois o array é de apenas leitura
+notas.push(5) // erro de compilação, pois o array é de apenas leitura
