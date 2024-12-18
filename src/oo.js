@@ -9,3 +9,16 @@ class Pessoa {
         return `Olá, ${this.nome}`;
     }
 }
+// encapsulamento e modificadores de acesso
+class ContaBancaria {
+    constructor(numeroConta) {
+        this.saldo = 0;
+        this.numeroConta = numeroConta;
+    }
+    getSaldo() {
+        return this.saldo;
+    }
+    depositar(saldo) {
+        this.saldo += saldo;
+    }
+}
