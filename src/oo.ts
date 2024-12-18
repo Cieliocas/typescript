@@ -3,9 +3,9 @@ class Pessoa {
     nome: string;
     renda?: number;
 
-    constuctor(nome: string, renda?: number) {
+    constructor(nome: string, renda?: number) {
         this.nome = nome;
-        this.renda = this.renda;
+        this.renda = renda;
     }
 
     dizOla(): string {
