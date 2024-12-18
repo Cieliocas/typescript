@@ -1,6 +1,6 @@
 let estaChovendo: boolean = true // boolean
 
-estaChovendo = 'true' // erro de compilação devido ao tipo da variável
+// estaChovendo = 'true' // erro de compilação devido ao tipo da variável
 
 let idade: number = 23 // number
 
@@ -19,7 +19,7 @@ const tecnologias: Array<string> = ['javascript', 'typescript', 'nodejs'] // arr
 const notas: ReadonlyArray<number> = [10, 9, 8, 7, 6] // array de números
 
 tecnologias.push('react') // erro de compilação, pois o array é de apenas leitura
-notas.push(5) // erro de compilação, pois o array é de apenas leitura
+// notas.push(5) // erro de compilação, pois o array é de apenas leitura
 
 // criando tupla
 const lista: [nome: string, estaEstudando: boolean, idade: number] = ['gian', true, 27]
@@ -27,7 +27,7 @@ const lista: [nome: string, estaEstudando: boolean, idade: number] = ['gian', tr
 // union type
 let idadeDaAna: number | string = 25 // aceita ambos
 idadeDaAna = '25 anos' // aceita ambos
-idadeDaAna = true // erro de compilação
+// idadeDaAna = true // erro de compilação
 
 // any type
 let dadosDaApi: any; // aceita qualquer tipo de dado
@@ -37,4 +37,4 @@ dadosDaApi = true
 dadosDaApi = ['gian', true, 27]
 
 let curso = 'front-end' // string
-curso = 2021 // number
+// curso = 2021 // number
