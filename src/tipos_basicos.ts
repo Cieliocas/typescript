@@ -30,7 +30,7 @@ idadeDaAna = '25 anos' // aceita ambos
 idadeDaAna = true // erro de compilação
 
 // any type
-const dadosDaApi: any; // aceita qualquer tipo de dado
+let dadosDaApi: any; // aceita qualquer tipo de dado
 dadosDaApi = 25
 dadosDaApi = '25 anos'
 dadosDaApi = true
