@@ -28,3 +28,10 @@ const lista: [nome: string, estaEstudando: boolean, idade: number] = ['gian', tr
 let idadeDaAna: number | string = 25 // aceita ambos
 idadeDaAna = '25 anos' // aceita ambos
 idadeDaAna = true // erro de compilação
+
+// any type
+const dadosDaApi: any; // aceita qualquer tipo de dado
+dadosDaApi = 25
+dadosDaApi = '25 anos'
+dadosDaApi = true
+dadosDaApi = ['gian', true, 27]
