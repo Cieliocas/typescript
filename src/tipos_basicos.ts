@@ -20,3 +20,10 @@ const notas: ReadonlyArray<number> = [10, 9, 8, 7, 6] // array de números
 
 tecnologias.push('react') // erro de compilação, pois o array é de apenas leitura
 notas.push(5) // erro de compilação, pois o array é de apenas leitura
+
+// criando tupla
+const lista: [nome: string, estaEstudando: boolean, idade: number] = ['gian', true, 27]
+
+// union type
+let idadeDaAna: number | string = 25 // aceita ambos
+idadeDaAna = '25 anos' // aceita ambos
