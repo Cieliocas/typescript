@@ -13,13 +13,14 @@ function soma(...numeros: number[]): void {
 }
 
 // union types em funcoes
-function teste(): string | number {
+function teste(): string | number { // forma de tipar o retorno da funcao
     if (10 > 5) {
-        return '10 é maior que 5';
+        return '10 é maior que 5'; // string
     }  else {
-        return 5;
+        return 5; // number
     }
 }
 
+//testando a funcao
 const resultadoDeTeste = teste(); // tipo string | number
 
