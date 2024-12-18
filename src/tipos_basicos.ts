@@ -35,3 +35,6 @@ dadosDaApi = 25
 dadosDaApi = '25 anos'
 dadosDaApi = true
 dadosDaApi = ['gian', true, 27]
+
+let curso = 'front-end' // string
+curso = 2021 // number
