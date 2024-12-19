@@ -25,6 +25,14 @@ interface ITransacional { // contrato
     taxaTransferencia: number; // propriedade
 }
 
+interface Exemplo2 { // outro exemplo de interface
+    cnpj: number;
+}
+
+interface Exemplo3 extends Exemplo2 { // exemplo de herança de interface
+    telefone: number;
+}
+
 // utilizando o implements para implementar a interface ao invés de extends
 // o implements é usado para implementar interfaces 
 // ao invés de herdar propriedades e métodos
@@ -36,5 +44,3 @@ class ContaCorrente extends Conta implements ITransacional {
     };
     taxaTransferencia: number = 0; // propriedade
 }
-
-
