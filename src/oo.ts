@@ -15,18 +15,24 @@ class Pessoa {
 
 // encapsulamento e modificadores de acesso
 class ContaBancaria {
-    saldo: number = 0;
-    numeroConta: number;
+    protected saldo: number = 0; // public, private, protected
+    numeroConta: number; // public
 
     constructor(numeroConta: number) {
         this.numeroConta = numeroConta;
     }
 
-    getSaldo(): number {
+    getSaldo() {
         return this.saldo;
     }
 
     depositar(saldo: number): void {
         this.saldo += saldo;
     }
+}
+
+class ContaBancariaPessoaFisica extends ContaBancaria {
+    depositar(valor: number): void { // sobrescrita de método
+        this.saldo = valor * 2; // exemplo de polimorfismo
+    } // conseguimos acessar o saldo pois ele é protected ao invés de private
 }
