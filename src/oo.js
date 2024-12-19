@@ -35,3 +35,7 @@ class ContaBancariaPessoaFisica extends ContaBancaria {
 const contaDoPedro = new ContaBancaria(123456);
 // contaDoPedro.depositar(100);
 ContaBancaria.retornaNumeroDoBanco();
+// protected: acessível por classes filhas
+// private: acessível apenas pela própria classe
+// static: acessível sem instanciar a classe
+// essas propriedades e métodos são exemplos de encapsulamento
