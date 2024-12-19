@@ -22,7 +22,11 @@ class ContaBancaria {
         this.numeroConta = numeroConta;
     }
 
-    getSaldo() {
+    static retornaNumeroDoBanco() {
+        return 125;
+    }
+
+    private getSaldo() {
         return this.saldo;
     }
 
@@ -36,3 +40,7 @@ class ContaBancariaPessoaFisica extends ContaBancaria {
         this.saldo = valor * 2; // exemplo de polimorfismo
     } // conseguimos acessar o saldo pois ele é protected ao invés de private
 }
+
+const contaDoPedro = new ContaBancaria(123456);
+// contaDoPedro.depositar(100);
+ContaBancaria.retornaNumeroDoBanco();
