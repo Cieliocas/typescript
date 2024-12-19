@@ -15,6 +15,8 @@ class Pessoa {
 
 // encapsulamento e modificadores de acesso
 class ContaBancaria {
+    // as propriedades são public por padrão e podem ser prefixadas com modificadores de acesso
+    // podem vir com valores pré-definidos ou não
     protected saldo: number = 0; // public, private, protected
     numeroConta: number; // public
 

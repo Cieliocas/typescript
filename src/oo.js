@@ -12,6 +12,8 @@ class Pessoa {
 // encapsulamento e modificadores de acesso
 class ContaBancaria {
     constructor(numeroConta) {
+        // as propriedades são public por padrão e podem ser prefixadas com modificadores de acesso
+        // podem vir com valores pré-definidos ou não
         this.saldo = 0; // public, private, protected
         this.numeroConta = numeroConta;
     }
