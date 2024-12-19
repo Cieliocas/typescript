@@ -24,11 +24,11 @@ class ContaBancaria {
         this.numeroConta = numeroConta;
     }
 
-    static retornaNumeroDoBanco() {
+    static retornaNumeroDoBanco() { // método estático
         return 125;
     }
 
-    private getSaldo() {
+    private getSaldo() { // método privado = mais restrito que protected
         return this.saldo;
     }
 
